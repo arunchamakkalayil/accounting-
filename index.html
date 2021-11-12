@@ -9,8 +9,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Nirmala Accounting Corner</title>
   </head>
+  <style>
+
+    .imageContent{
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+    .imageText{
+      position: absolute;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+    
+  
+ 
+ 
+    div h2 {
+      color: white;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="d-flex flex-wrap">
@@ -37,19 +69,23 @@
           
         </div> 
       </nav>
- 
-   <img src="assets/1624950095282.jpg" width="100%" height="500"><br></br>
-   <h2 style="text-align: center;">Assignments & Works</h2><br><br><br>
-<div style="display: flex;justify-content: space-evenly;">
-    <div class="card" style="width: 18rem;">
+ <div class="imageContent">
+   <img src="assets/1624950095282.jpg" width="100%" height="500" style="filter: brightness(50%);">
+   <div class="imageText"><h2>RESEARCH AND PG DEPARTMENT Of COMMERCE</h2></div>
+
+ </div>
+   <br></br>
+   <h2 style="text-align: center;">Assignments & Works</h2><br><br>
+<div style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-evenly;">
+    <div class="card" style="width: 18rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
         <img src="assets/pngwing.com.png" class="card-img-top" alt="..." height="250">  
         <div class="card-body">
           <h5 class="card-title">Assignments</h5>
           <p class="card-text">Corporate Accounting Assignments</p>
           <a href="#" class="btn btn-primary">View</a>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
+      </div><br><br>
+      <div class="card" style="width: 18rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
         <img src="assets/others.png" class="card-img-top" alt="..." height="250">
         <div class="card-body">
           <h5 class="card-title">Others</h5>
